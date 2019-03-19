@@ -1743,9 +1743,10 @@ ul, ol {
     min-height: 400px;
 }
 .col-left {
-    float: left;
+    position: relative;
     width: 200px;
     padding: 0 0 1px;
+    left: 3%;
 }
 .col-main {
     float: left;
@@ -2230,15 +2231,17 @@ p.required {
     margin: 0 0 25px;
 }
 .page-title h1 {
-    font-size: 24px;
+    font-size: 39px;
     font-weight: 700;
     color: #393d3f;
     float: left;
+    font-family: sourcesanspro!important;
 }
 .page-title h2 {
     margin: 0;
     font-size: 20px;
     color: #0a263c;
+    font-family: sourcesanspro!important;
 }
 .page-title .separator {
     margin: 0 3px;
@@ -6757,7 +6760,7 @@ p.availability {
 .tab-group {
     float: left;
     display: inline-block;
-    margin-left: 20px;
+    margin: 10px 20px;
 }
 .cont-1 {
     float: left;
@@ -7844,4 +7847,47 @@ a.level1.login-item {
     border-style: solid;
     border-color: #3c3d41;
     border-radius: 20px;
+}
+ul.login-container {
+    position: relative;
+    top: 10px;
+}
+
+.login a {
+    height: 30px;
+    text-align: center;
+}
+.login a:hover,.login a:focus,.login a:active {
+    background-color: #fff;
+}
+.login span {
+    position: relative;
+    top: 5px;
+}
+.register span {
+    position: relative;
+    top: 5px;
+    color: #fff;
+}
+.register a {
+    height: 30px;
+    background-color: #e11b1e;
+    
+}
+.register a:hover, .register a:focus, .register a:active {
+    background-color: #3c3d41;
+    
+}
+
+
+.lt-promotion-phone .item img{
+    width: 100%;
+    height: 200px;
+}
+
+.products-container ul.cols li:hover {
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 50px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    z-index: 1;
 }
